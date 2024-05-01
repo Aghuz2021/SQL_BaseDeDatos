@@ -19,9 +19,11 @@ SELECT nombre, apellido
 FROM clientes
 ```
 # La cláusula where
-- Where
-# La cláusula from
-- From
+```sql
+SELECT nombre, apellido
+FROM clientes
+where nombre = ""
+```
 # La operación renombramiento
 - As (Alias) 
 #  Operaciones con cadenas de caracteres
